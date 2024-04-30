@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registered</title>
+
+</head>
+<body>
+Hello World of Spring!!
+<br><br>
+Congratulations, <span th:text="${user.firstName} + ' ' + ${user.lastName}" /> !!
+<br><br>
+You've been successfully registered!!!
+<br><br>
+Email: <span th:text="${user.email}"/>
+<br><br>
+
+Password: <span th:text="${user.password}"/>
+
+</body>
+</html>
